@@ -1,4 +1,5 @@
-broker: 'pyamqp://user:user@<IP>//'
+# broker: 'pyamqp://user:user@<IP>//'
+broker: 'pyamqp://localhost:5672/'
 redis_db_nr: 1
 task_serializer: "pickle"
 result_serializer: "pickle"

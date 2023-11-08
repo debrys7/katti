@@ -1,7 +1,8 @@
 redis:
-    password: 'test'
-    host: 'IP'
+    password: 'redis'
+    host: 'localhost'
     port: 6379
     user: ''
 mongodb:
-    katti: "mongodb://drwho:tardis@192.168.177.86:27017"
+    # katti: "mongodb://drwho:tardis@192.168.177.86:27017"
+    katti: "mongodb://root:mongo@localhost:27017"
